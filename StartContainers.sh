@@ -33,5 +33,5 @@ echo Abriendo PhpMyAdmin, por favor espere mientras se inicia la aplicación.
 sleep 2s
 
 #Cambiar usuario por el usuario normal
-su -u cristian xdg-open http://localhost:8080/ > /dev/null 2>/dev/null
+sudo -u cristian xdg-open http://localhost:8080/ > /dev/null 2>/dev/null
 
