@@ -16,7 +16,7 @@ git commit -m $iteration
 echo haciendo push
 
 #ocupando variables de entorno 
-git push https://$gitUser:$gitPsw@github.com/Cristian-Ayala/tpi_docker.git master
+git push https://$gitUser:"${gitPsw}"@github.com/Cristian-Ayala/tpi_docker.git master
 
 export iteration=$(expr $iteration + 1)
  

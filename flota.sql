@@ -91,7 +91,7 @@ CREATE TABLE `marca` (
   `descripcion` text DEFAULT NULL,
   `activo` bit(1) NOT NULL,
   PRIMARY KEY (`id_marca`)
-) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=12 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -100,7 +100,7 @@ CREATE TABLE `marca` (
 
 LOCK TABLES `marca` WRITE;
 /*!40000 ALTER TABLE `marca` DISABLE KEYS */;
-INSERT INTO `marca` VALUES (1,'Toyota','Marca Toyota',''),(2,'Nissan','Marca Nissan',''),(3,'Honda','Marca Honda',''),(4,'Chevrolet','Marca Chevrolet',''),(5,'Mazda','Marca Mazda',''),(6,'Ford','Marca Ford',''),(7,'Subaru','Marca Subaru',''),(8,'Audi','Marca audi',''),(9,'Ferrari','Marca ferrari',''),(10,'Mercedez','Marca Mercedez','');
+INSERT INTO `marca` VALUES (1,'Toyota','Marca Toyota',''),(2,'Nissan','Marca Nissan',''),(3,'Honda','Marca Honda',''),(4,'Chevrolet','Marca Chevrolet',''),(5,'Mazda','Marca Mazda',''),(6,'Ford','Marca Ford',''),(7,'Subaru','Marca Subaru',''),(8,'Audi','Marca audi',''),(9,'Ferrari','Marca ferrari',''),(10,'Mercedez','Marca Mercedez',''),(11,'Tesla','Marca Tesla','\0');
 /*!40000 ALTER TABLE `marca` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -493,4 +493,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2020-04-30 11:45:09
+-- Dump completed on 2020-04-30 11:54:11
