@@ -30,7 +30,31 @@ sleep 2s
 
 echo Abriendo PhpMyAdmin, por favor espere mientras se inicia la aplicación.
 
-sleep 2s
+sleep 5s
+
+sleep 13s
+
+echo Falta 1 min 53 s
+
+sleep 13s
+
+echo Falta 1 min 40 s
+
+sleep 20s
+
+echo Falta 1 min 20 s
+
+sleep 30s
+
+echo Faltan 50 s
+
+sleep 30s
+
+echo Faltan 20 s
+
+sleep 20s
+
+sleep 5s 
 
 #Cambiar usuario por el usuario normal
 sudo -u cristian xdg-open http://localhost:8080/ > /dev/null 2>/dev/null

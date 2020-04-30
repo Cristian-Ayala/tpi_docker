@@ -24,3 +24,5 @@ echo  deteniendo contenedores
 
 docker stop phpmyadminc mariadbc 
  
+#Para eliminar todas als imagenes huarfanas porque se les ha robado el tag  
+docker images -f dangling=true -q | xargs docker rmi 
