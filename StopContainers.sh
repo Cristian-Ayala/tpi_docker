@@ -12,7 +12,7 @@ if [ -z "$gitUser" ] && [ -z "$gitPsw" ] && [ -z "$gitNameRepo" ] && [ -z "$iter
 else
     git fetch
     
-    git pull
+    git pull -f
     
     git add Dockerfile flota.sql StartContainers.sh StopContainers.sh
 
