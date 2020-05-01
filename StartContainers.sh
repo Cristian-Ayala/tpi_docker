@@ -70,6 +70,6 @@ do
 done
 printf "\n"
 
-#Cambiar usuario por el usuario normal
+#Cambiar usuario por el usuario normal de linux
 sudo -u cristian xdg-open http://localhost:8080/ > /dev/null 2>/dev/null
 
